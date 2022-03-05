@@ -1,6 +1,6 @@
 from PIL import Image
 
-picture_origonal = Image.open("Andrew.jpg")
+picture_origonal = Image.open("Enter File Name Here.jpg")
 
 width, height = picture_origonal.size
 
@@ -52,4 +52,4 @@ for col in range(0, width, ps):
         z=[]
 
 picture_origonal.show()
-picture_origonal.save("Profile Pic.jpg")
+picture_origonal.save("Enter Picture Save Name Here.jpg")
